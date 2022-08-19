@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dde7ff;
+    font-family: 'Roboto Slab', serif;
+    color: #727f8c;
+}
+
+.alto{
+    height: 52px;
+}
+
+.logo img{
+    width: 289px;
+    height: 40px;
+}
+.logo {
+    text-align: center;
+}
+.logo p{
+    font-size: 14px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+#mooveapp{
+    width: 1080px;
+    margin: 0 auto;
+    background-color: #ebf0f7;
+    -webkit-box-shadow: 10px 2px 24px 0px rgba(113, 127, 150, 0.18);
+    -moz-box-shadow: 10px 2px 24px 0px rgba(113, 127, 150, 0.18);
+    box-shadow: 10px 2px 24px 0px rgba(113, 127, 150, 0.18);
+    border-radius: 30px;
+    padding: 60px 30px;
+}
+
+#galeria{
+    display: grid;
+    grid-template-columns: 44% 44%;
+    gap: 1em;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    row-gap: 2.4em;
+}
+
+#galeria .info{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+    justify-content: space-between;
+}
+
+#galeria .car{
+    display: grid;
+    grid-template-columns: 15% 40% 45%;
+    justify-content: space-between;
+    align-items: center;
+}
+.car p{
+    font-size: 0.6em;
+}
+
+#galeria .car .precio{
+    font-size: 1em;
+    text-align: right;
+    font-weight: 800;
+    color: #5382f6;
+    font-size: 1.4em;
+    padding-right: 10px;
+}
+.precio span{
+    opacity: .5;
+    font-size: 9px;
+}
+
+#galeria .detalle{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo h3{
+    font-weight: 800;
+    color: #485666;
+    font-size: 20px;
+}
+.titulo h6{
+font-weight: 400;
+font-size: 12px;
+}
+
+#galeria .producto .imagen img{
+    width: 160px;
+    position: relative;
+    left: -80px;
+}
+
+.producto{
+    background-color: white;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 2px 24px 0px rgba(113, 127, 150, 0.18);
+    -moz-box-shadow: 10px 2px 24px 0px rgba(113, 127, 150, 0.18);
+    box-shadow: 10px 2px 24px 0px rgba(113, 127, 150, 0.18);
+    padding: 15px;
+}
+
+.car img{
+    width: 14px;
+    height: 14px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+}
+
+
+#galeria{
+    display: none;
+}
+
+/* estilos producto seleccionado */
+
+#detalle{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.producto .info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#detalle .producto .imagen img{
+    width: 357px;
+    height: 200px;
+}
+
+#detalle .car-int {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    row-gap: .5em;
+}
+#detalle .car h5{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.precio-total .dias{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.precio-total .total{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+.dias label{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
